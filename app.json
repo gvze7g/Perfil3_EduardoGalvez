@@ -1,24 +1,26 @@
 {
   "expo": {
     "name": "PruebaMovil",
-    "slug": "PruebaMovil",
+    "slug": "prueba-movil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "icon": "./assets/icono.jpg",
+    "splash": {
+      "image": "./assets/icono.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "foregroundImage": "./assets/icono.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gvz.e7g.pruebamovil"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "b615c9cb-62fb-433a-a410-5dcacde0ac2e"
+      }
     }
   }
 }
